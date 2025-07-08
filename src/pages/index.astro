@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HabitTracker from '../components/HabitTracker.svelte';
+import SyncStatus from '../components/SyncStatus.svelte';
+---
+
+<Layout title="Habit Week - Weekly Habit Tracker">
+	<main>
+		<div class="fixed top-4 right-4 z-10">
+			<SyncStatus client:load />
+		</div>
+		
+		<HabitTracker client:load />
+	</main>
+</Layout>

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(true)",
+      "Bash(npx astro add:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx shadcn-svelte@latest init:*)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run astro:*)",
+      "Bash(timeout 10s npm run dev)"
+    ],
+    "deny": []
+  }
+}
