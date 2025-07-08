@@ -1,19 +1,19 @@
 <script lang="ts">
-	import type { Snippet } from "svelte";
-	import { Button as ButtonPrimitive } from "bits-ui";
-	import { cn } from "$lib/utils.js";
-	import type { ButtonVariants } from "./index.js";
-	import { buttonVariants } from "./index.js";
+	import type { Snippet } from 'svelte';
+	import { Button as ButtonPrimitive } from 'bits-ui';
+	import { cn } from '$lib/utils.js';
+	import type { ButtonVariants } from './index.js';
+	import { buttonVariants } from './index.js';
 
 	type $$Props = ButtonPrimitive.Props & {
-		variant?: ButtonVariants["variant"];
-		size?: ButtonVariants["size"];
+		variant?: ButtonVariants['variant'];
+		size?: ButtonVariants['size'];
 	};
 
 	let {
 		class: className,
-		variant = "default",
-		size = "default",
+		variant = 'default',
+		size = 'default',
 		builders = [],
 		children,
 		...restProps

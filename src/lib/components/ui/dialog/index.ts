@@ -1,7 +1,7 @@
-import { Dialog as DialogPrimitive } from "bits-ui";
+import { Dialog as DialogPrimitive } from 'bits-ui';
 
-import Root from "./dialog.svelte";
-import Content from "./dialog-content.svelte";
+import Root from './dialog.svelte';
+import Content from './dialog-content.svelte';
 
 const Dialog = Object.assign(Root, {
 	Root,
@@ -14,9 +14,4 @@ const Dialog = Object.assign(Root, {
 	Description: DialogPrimitive.Description,
 });
 
-export {
-	Root,
-	Content,
-	Dialog,
-	DialogPrimitive
-};
+export { Root, Content, Dialog, DialogPrimitive };
